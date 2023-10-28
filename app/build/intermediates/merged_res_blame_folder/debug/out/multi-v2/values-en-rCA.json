@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.chatapp-mergeDebugResources-35:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.chatapp-mergeDebugResources-47:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DAKSHA\\.gradle\\caches\\transforms-3\\11b94905b76d54666e9ea7d1bf2b63fd\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",

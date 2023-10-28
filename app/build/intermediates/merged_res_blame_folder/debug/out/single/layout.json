@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/fragment_first.xml",
+        "source": "com.example.chatapp-main-51:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/fragment_second.xml",
+        "source": "com.example.chatapp-main-51:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.example.chatapp-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/activity_set_profile.xml",
+        "source": "com.example.chatapp-main-51:/layout/activity_set_profile.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/activity_chat.xml",
+        "source": "com.example.chatapp-main-51:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/activity_userprofile.xml",
+        "source": "com.example.chatapp-main-51:/layout/activity_userprofile.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/activity_splashscreen.xml",
+        "source": "com.example.chatapp-main-51:/layout/activity_splashscreen.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/activity_otp_authentication.xml",
+        "source": "com.example.chatapp-main-51:/layout/activity_otp_authentication.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-48:/layout/content_userprofile.xml",
+        "source": "com.example.chatapp-main-51:/layout/content_userprofile.xml"
+    }
+]

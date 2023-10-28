@@ -13,6 +13,11 @@
         android:theme="@style/Theme.ChatApp"
         tools:targetApi="31">
         <activity
+            android:name=".userprofile"
+            android:exported="false"
+            android:label="@string/title_activity_userprofile"
+            android:theme="@style/Theme.ChatApp" />
+        <activity
             android:name=".chatActivity"
             android:exported="false" />
         <activity

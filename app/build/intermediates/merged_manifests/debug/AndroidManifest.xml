@@ -31,6 +31,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.ChatApp" >
         <activity
+            android:name="com.example.chatapp.userprofile"
+            android:exported="false"
+            android:label="@string/title_activity_userprofile"
+            android:theme="@style/Theme.ChatApp" />
+        <activity
             android:name="com.example.chatapp.chatActivity"
             android:exported="false" />
         <activity
@@ -128,18 +133,6 @@
         </service>
 
         <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.chatapp.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.chatapp.androidx-startup"
             android:exported="false" >
@@ -153,6 +146,24 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.chatapp.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <meta-data
             android:name="com.google.android.gms.version"
