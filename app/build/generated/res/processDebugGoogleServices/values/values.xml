@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">73882502670</string>
+    <string name="google_api_key" translatable="false">AIzaSyBl-SRjKFa1vPO09l0WFzVWoyde4GlEt7s</string>
+    <string name="google_app_id" translatable="false">1:73882502670:android:1c1f4eb9f7e771dd9b9e5f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBl-SRjKFa1vPO09l0WFzVWoyde4GlEt7s</string>
+    <string name="google_storage_bucket" translatable="false">mychatapptutorial-f4d90.appspot.com</string>
+    <string name="project_id" translatable="false">mychatapptutorial-f4d90</string>
+</resources>
